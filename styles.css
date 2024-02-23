@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    text-align: center;
+}
+
+#app {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.pet-container {
+    margin-bottom: 20px;
+}
+
+.pet-image {
+    width: 200px;
+    height: auto;
+}
+
+.status-indicators {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.status-item {
+    margin: 0 10px;
+}
+
+.indicator-label {
+    font-weight: bold;
+}
+
+.indicator-value {
+    margin-left: 5px;
+}
+
+.action-buttons {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 5px;
+    margin: 0 10px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}

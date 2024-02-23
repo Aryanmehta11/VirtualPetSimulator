@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virtual Pet Simulator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div id="app">
+    <h1>Virtual Pet Simulator</h1>
+    <div class="pet-container">
+        <img src="pet.png" alt="Virtual Pet" class="pet-image">
+        <div class="status-indicators">
+            <div class="status-item">
+                <span class="indicator-label">Hunger:</span>
+                <span id="hungerIndicator" class="indicator-value">50%</span>
+            </div>
+            <div class="status-item">
+                <span class="indicator-label">Happiness:</span>
+                <span id="happinessIndicator" class="indicator-value">50%</span>
+            </div>
+        </div>
+    </div>
+    <div class="action-buttons">
+        <button id="feedBtn">Feed</button>
+        <button id="playBtn">Play</button>
+        <button id="groomBtn">Groom</button>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
